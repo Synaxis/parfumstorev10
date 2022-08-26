@@ -613,7 +613,6 @@ background-repeat: norepeat;
     .nav__list {
         display: flex;
         flex-direction: column;
-        row-gap: 1.5rem;
         flex-wrap: wrap;
         margin-top: 5vh;
     }
