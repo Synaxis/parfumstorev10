@@ -1,1712 +1,588 @@
-header {
-  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
-background-color: hsl(246deg 100% 87%) !important;
-font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-text-rendering: optimizeLegibility;
-border-bottom-left-radius: 10px;
-
-}
-
-header > nav > div > ul {
-  margin-left: 1.5vw;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  font-size: 1.2em;
-}
-
-
-section > div > ul > li * {
-  background-color: white;
-  border-radius: 10px;
-  padding: 0px;
-  margin-top: 7vh;
-box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
-}
-
-li {
-  margin-right: 6px;
-}
-
-section > div > ul > li:hover {
-  zoom:135%;
-  
-}
-/*  NOVO --------------------------------------------------------------------------------------------------------------------------------------------------------*/
-/*  NOVO --------------------------------------------------------------------------------------------------------------------------------------------------------*/
-/*  NOVO --------------------------------------------------------------------------------------------------------------------------------------------------------*/
-
-
-/*  NOVO --------------------------------------------------------------------------------------------------------------------------------------------------------*/
-
-
-a.nav__logo {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-weight: 600;
-    font-size: 2.9em;
-    margin-left: -2vw;
-  }
-
-
-  .TitleMenuMobile {
-    color:
-    white;
-    font-size: 1.3em;
-    display: inline-flex;
-    font-weight: bold;
-}
-
-  .js-Carousel {
-    background: white;
-    /* height: 355px; */
-    /* margin-bottom: 1vh; */
-    margin-top: 1vh;
-    overflow: hidden;
-    position: relative;
-    width: 950px;
-  }
-  .js-Carousel > ul {
-    height: 260px;
-    list-style: none;
-    margin: 0;
-    margin-left: 10p;
-    background-color: #e9c7c7;
-    padding: 0;
-    width: 9999px;
-  }
-  .js-Carousel > ul li {
-    display: inline-block;
-    float: left;
-    /* height: 100px; */
-    width: 100px;
-    transition: margin-left 0.2s ease;
-  }
-  .js-Carousel > ul li img {
-   text-align:
-   center;
-   width: 400px;
-   margin-left: 40px;
-   background-color: white;
-   margin-right: 4px;
-   border-color: fff;
-   border-radius: 29px;
-   border: fff 10px;
-   height: 120px;
-  }
-  .js-Carousel .js-Carousel-arrowPrev,
-  .js-Carousel .js-Carousel-arrowNext {
-    background: transparent;
-    border: 0;
-    color: #e0e0e0;
-    cursor: pointer;
-    font: 400 10em sans-serif;
-    height: 200px;
-    outline: 0;
-    position: absolute;
-    top: 0;
-    text-shadow: 0 0 10px #444444;
-    width: 90px;
-    transition: all 0.2s ease;
-  }
-  .js-Carousel .js-Carousel-arrowPrev:hover,
-  .js-Carousel .js-Carousel-arrowNext:hover {
-    color: #aaaaaa;
-  }
-  .js-Carousel .js-Carousel-arrowPrev {
-    left: 0;
-  }
-  .js-Carousel .js-Carousel-arrowNext {
-    right: 0;
-  }
-  .js-Carousel .js-Carousel-dots {
-    display: inline-block;
-    height: 3em;
-    margin: 0;
-    position: absolute;
-    top: 50%;
- left: 50%;
- transform: translate(-50%, 230%);bottom: 1em;
-    transform: translate 50% -50%;translate: 50% -50%;
-    width: auto;
-  }
-  .js-Carousel .js-Carousel-dots li {
-    background: #aaaaaa;
-    border-radius: .75em;
-    cursor: pointer;
-    display: inline-block;
-    height: .75em;
-    margin: 0 .75em;
-    width: .75em;
-    transition: all 0.2s ease;
-  }
-  .js-Carousel .js-Carousel-dots li.is-active {
-    background: #ffffff;
-    box-shadow: 0 0 3px 3px #ddd;
-  }
-  .js-Carousel .js-Carousel-dots li:hover {
-    background: #f5f5f5;
-  }
-  .js-Carousel .js-Carousel-btnStop,
-  .js-Carousel .js-Carousel-btnPlay {
-    background: #aaaaaa;
-    border: 0;
-    cursor: pointer;
-    height: 2.25em;
-    position: absolute;
-    bottom: 1em;
-    left: 2em;
-    text-align: center;
-    width: 5em;
-    transition: all 0.2s ease;
-  }
-  .js-Carousel .js-Carousel-btnStop:hover,
-  .js-Carousel .js-Carousel-btnPlay:hover {
-    background: #f5f5f5;
-  }
-  .js-Carousel .js-Carousel-btnStop {
-    left: 100px;
-  }
-
-  
-  
-  
-  @-webkit-keyframes slideLeft {
-    0% {
-      opacity: 0;
-      -webkit-transform: translateX(100%);
-              transform: translateX(100%);
-    }
-    100% {
-      opacity: 1;
-      -webkit-transform: translateX(0%);
-              transform: translateX(0%);
-    }
-  }
-  
-  @keyframes slideLeft {
-    0% {
-      opacity: 0;
-      -webkit-transform: translateX(100%);
-              transform: translateX(100%);
-    }
-    100% {
-      opacity: 1;
-      -webkit-transform: translateX(0%);
-              transform: translateX(0%);
-    }
-  }
-  
-  @-webkit-keyframes slideRight {
-    0% {
-      opacity: 1;
-      -webkit-transform: translateX(0%);
-              transform: translateX(0%);
-    }
-    100% {
-      opacity: 0;
-      -webkit-transform: translateX(100%);
-              transform: translateX(100%);
-    }
-  }
-  
-  @keyframes slideRight {
-    0% {
-      opacity: 1;
-      -webkit-transform: translateX(0%);
-              transform: translateX(0%);
-    }
-    100% {
-      opacity: 0;
-      -webkit-transform: translateX(100%);
-              transform: translateX(100%);
-    }
-  }
-  
-  *::before,
-  *::after {
-    padding: 0;
-    margin: 0;
-  
-  }
-  
-  div.home__content.grid {
-    padding: 1px;
-   }
-   
-   h2.home__title {
-     font-size: 3em;
-     font-weight: 600;
-   }
-  nav.nav.container {
-    height: 6.5vh;
-  }
-  .tituloAcessorios {
-      margin-top: 2vh;
-      margin-bottom: 2vh;
-      font-weight: 600;
-      font-size: 1.2em;
-  }
-  
-  img.trick__img:hover {
-  zoom: 105%;
-
-}
-  
-  a.nav__link {
-    font-family: -apple-system, BlinkMacSystemFont, Ubuntu, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-weight: 600;
-    color: white;
-    }
-  
-  div.trick__content {
-    padding: 1vw;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
-    background-color: #ffffff;
-    }
-  /*=================== VARIABLES CSS =======================*/
-  :root {
-      --header-height: 3.5rem;
-  
-      /*=============== Colors =============*/
-      --hue: 14;
-      --first-color:
-      hsl(var(--hue), 91%, 54%);
-      --first-color-alt:
-      hsl(var(--hue), 91%, 50%);
-      --title-color:
-      hsl(var(--hue), 4%, 100%);
-      --text-color:
-      hsl(var(--hue), 4%, 85%);
-      --text-color-light:
-      hsl(var(--hue), 4%, 55%);
-  
-    --body-color: white;
-    --container-color:
-      linear-gradient(136deg, hsl(265deg 15% 52% / 85%) 0%, hsl(0deg 0% 80%) 100%);
-  
-      /*================== Font and typography =============*/
-      --body-font:
-      'Poppins', sans-serif;
-      --biggest-font-size: 2rem;
-      --h1-font-size: 1.5rem;
-      --h2-font-size: 1.25rem;
-      --h3-font-size: 1rem;
-      --normal-font-size: .938rem;
-      --small-font-size: .813rem;
-      --smaller-font-size: .75rem;
-  
-      /*=========== Font weight ==================*/
-      --font-medium: 500;
-      --font-semi-bold: 600;
-      --font-black: 900;
-  
-      /*============= Margenes Bottom ===============*/
-      --mb-0-25: .25rem;
-      --mb-0-5: .5rem;
-      --mb-0-75: .75rem;
-      --mb-1: 1rem;
-      --mb-1-5: 1.5rem;
-      --mb-2: 2rem;
-      --mb-2-5: 2.5rem;
-  
-      /*================== z index =============*/
-      --z-tooltip: 10;
-      --z-fixed: 100;
-  }
-  
-  
-  
-  /* Resposive typography */
-  @media screen and (minx-width: 992px) {
-      :root {
-          --biggest-font-size: 4rem;
-          --h1-font-size: 2.25rem;
-          --h2-font-size: 1.5rem;
-          --h3-font-size: 1.25rem;
-          --normal-font-size: 1rem;
-          --small-font-size: .875rem;
-          --smaller-font-size: .813rem;
-      }
-  }
-  
-  /*================= BASE ===================*/
-  *{
-      box-sizing: border-box;
-      padding: 0;
-      margin: 0;
-  }
-  
-  html {
-      scroll-behavior: smooth;
-  }
-  
-  body {
-      margin: var(--header-height) 0 0 0;
-      font-family: var(--body-font);
-      font-size: var(--normal-font-size);
-      background: #e9c7c7;
-      color: black;
-  }
-  
-  h1, h2, h3, h4 {
-    color: black;
-    font-weight: var(--font-semi-bold);
-  }
-  
-  div.trickcontent {
-      padding: 4%;
-      padding-bottom: 0%;
-      height: 90%;
-  }
-  
-  span.swiper-pagination-bullet.swiper-pagination-bullet-active {
-      padding: 0.5%;
-  }
+<!DOCTYPE html>
+<html lang="pt-BR" style="font-family: 'Sen', sans-serif;">
+<head>
+    <meta charset="UTF-8">
+    <!-- Ignora google tradutor -->
+    <meta name="google" value="notranslate">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MizaShow Perfumes</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sen&display=swap">
     
-  span.swiper-pagination-bullet {
-      padding: 0.5%;
-  }
-  
-  a.button {
-      font-size: 1.0em;
-      padding: 3%;
-      background-color: goldenrod;
-  }
+    <!-- Estilos -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body style=" -webkit-font-smoothing: subpixel-antialiased;
+              -moz-osx-font-smoothing: auto;
+              box-sizing: border-box;
+              -webkit-font-smoothing: antialiased;
+              -moz-osx-font-smoothing: grayscale;
+              text-rendering: optimizeLegibility;">
     
-  nav.nav.container {
-      height: 8vh;
-  }
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo" style="font-size: 21px;">
+                    <img src="images/logo.png" alt="" class="nav__logo-img">
+                    MizaShow Perfumes!
+                </a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#trick" class="nav__link active-link">Perfumes</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="https://armi5338416.mercadoshops.com.br/nossos-produtos" class="nav__link">MercadoLivre</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="https://linktr.ee/mizashow" class="nav__link">Nossas redes</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="https://www.mercadolivre.com.br/perfil/ARMI5338416" class="nav__link">Melhores pre&ccedil;os!</a>
+                    </li>
+                </ul>
+                
+                <div class="nav__close" id="nav-close">
+                    <i class='bx bx-window-close'></i>
+                </div>
+                
+                <img src="assets/img/cart.png" alt="Nav image" class="nav__img">
+            </div>
+            
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-grid'></i>
+            </div>
+        </nav>
+    </header>
+<main class="main">
+
+<div class="container">
+    <!-- Carrossel de Perfumes -->
+    <div class="carousel">
+        <img src="/img/think.jpeg" alt="Slide 1">
+
+
+    </div>
+
+    <!-- Grid de Perfumes -->
+    <section class="section trick" id="trick">
+
+        <div class="perfume__container grid">
+           <!-- <div class="perfume" >
+         <img style="cursor: pointer;" onclick="window.open('https://produto.mercadolivre.com.br/MLB-2746701357-paco-rabanne-1-miller-edt-200-ml-para-homens-_JM', '_blank');"
+         
+         src="img/one.png" alt=""/>
+         <h3 class="textoPerfume">One Million Pacco Rabanne 200ml</h3>
+         </div> -->
+         
+         <!-- Button for Perfume Colcci Urbana 100 ml -->
+<div class="perfume">
+  <img style="cursor: pointer;" onclick="window.open('https://armi5338416.mercadoshops.com.br/MLB-3286458543-perfume-colcci-urbana-100-ml-_JM', '_blank');"
+       src="img/urban.png" alt="Colcci Urban 100 ml"/>
+  <h3 class="textoPerfume">Perfume Colcci Urbana 100 ml</h3>
+</div>
+
+<!-- Button for Kit Camaro Red 100 Ml, Shampoo E Gel P��s Barba -->
+<div class="perfume">
+  <img style="cursor: pointer;" onclick="window.open('https://armi5338416.mercadoshops.com.br/MLB-2837409672-kit-camaro-red-100-ml-shampoo-e-gel-pos-barba-_JM', '_blank');"
+       src="img/camarored.png" alt="Kit Camaro Red 100 Ml, Shampoo E Gel P��s Barba"/>
+  <h3 class="textoPerfume">Kit Camaro 100 Ml</h3>
+</div>
+
+<!-- Button for Jacques Bogart Silver Scent Intense EDT 100ml -->
+<div class="perfume">
+  <img style="cursor: pointer;" onclick="window.open('https://armi5338416.mercadoshops.com.br/jacques-bogart-silver-scent-intense-edt-100ml-para-masculino/p/MLB6137683', '_blank');"
+       src="img/scent.png" alt="Jacques Bogart Silver Scent Intense EDT 100ml"/>
+  <h3 class="textoPerfume">Jacques Bogart Silver Scent Intense EDT 100ml</h3>
+</div>
+
+<!-- Button for Jacques Bogart Silver Scent EDT 100ml -->
+<div class="perfume">
+  <img style="cursor: pointer;" onclick="window.open('https://armi5338416.mercadoshops.com.br/jacques-bogart-silver-scent-edt-100ml-para-masculino/p/MLB5454249', '_blank');"
+       src="img/jaques.jpg" alt="Jacques Bogart Silver Scent EDT 100ml"/>
+  <h3 class="textoPerfume">Jacques Bogart Silver Scent EDT 100ml</h3>
+</div>
+
+<!-- Button for Perfume Linn Young Club 420 Exclusive Pink Edp 100ml -->
+<div class="perfume">
+  <img style="cursor: pointer;" onclick="window.open('https://armi5338416.mercadoshops.com.br/perfume-linn-young-club-420-exclusive-pink-edp-100ml-fem/p/MLB19940247', '_blank');"
+       src="img/youngpink.png" alt="Perfume Linn Young Club 420 Exclusive Pink Edp 100ml"/>
+  <h3 class="textoPerfume">Perfume Linn Young Club 420 Exclusive Pink Edp 100ml</h3>
+</div>
+
+
+         <div class="perfume"> 
+          <img style="cursor: pointer;" onclick="window.open('https://armi5338416.mercadoshops.com.br/MLB-2611306682-perfume-ger-golden-secret-80-ml-_JM', '_blank');"
+          src="img/hergolden.png"
+          alt="" />
+          <h3 class="textoPerfume">Her SecretTempation 80ML EDT </h3>
+          </div>
+
+         <div class="perfume">
+          <img style="cursor: pointer;" onclick="window.open('https://armi5338416.mercadoshops.com.br/paris-elysees-billion-dollar-edt-100ml-para-masculino/p/MLB19138560?pdp_filters=category:MLB1246%7Cseller_id:176774316', '_blank');"
+               src="img/billion.png"
+               alt="Frasco de perfume Paris Elysees Billion Dollar EDT 100ml" />
+          <h3 class="textoPerfume">Paris Elysees Billion Dollar EDT 100ml</h3>
+      </div>
+
+      <div class="perfume">
+        <img style="cursor: pointer;" onclick="window.open('https://armi5338416.mercadoshops.com.br/animale-for-men-edt-100ml-para-masculino/p/MLB6166109?pdp_filters=category:MLB1246%7Cseller_id:176774316', '_blank');"
+             src="img/animale.png"
+             alt="Frasco de perfume Animale for Men EDT 100ml para masculino" />
+        <h3 class="textoPerfume">Animale for Men EDT 100ml para masculino</h3>
+    </div>
     
-  h2.hometitle {
-      font-size: 2.8em;
-  }
+      
+         
+         <div class="perfume" >
+          <img style="cursor: pointer;" onclick="window.open('https://produto.mercadolivre.com.br/MLB-2856268710-idle-l-parfum-lancme-75-ml-_JM', '_blank');"
+          src="img/idole.png"
+          alt=""
+           />
+          <h3 class="textoPerfume">Idole Le Parfume Lancome 75 Ml</h3>
+          </div> 
+          
+      
+         <!--  <div class="perfume" >
+          <img style="cursor: pointer;" onclick="window.open('https://armi5338416.mercadoshops.com.br/calvin-klein-ck-everyone-edt-200ml-para-sem-gnero/p/MLB19050899', '_blank');"
+          src="img/calvin.png"
+          alt=""
+           />
+          <h3 class="textoPerfume">Calvin Klein CK Everyone EDT 200Ml</h3>
+          </div> -->
+      
+          <div class="perfume" >
+            <img style="margin-top: 10px;cursor: pointer;" onclick="window.open('https://armi5338416.mercadoshops.com.br/MLB-1961555227-perfume-fantasy-britney-spears-_JM', '_blank');"
+            src="img/britney.png"
+            alt=""/>
+            <h3 class="textoPerfume">Britney Spears Fantasy</h3>
+            </div>
+          
+           <!-- <div class="perfume" >
+              <img style="cursor: pointer;" onclick="window.open('https://armi5338416.mercadoshops.com.br/MLB-2854251018-perfume-her-secret-kiss-80-ml-_JM', '_blank');"
+              src="img/hersecret3.png"
+              alt=""
+                   />
+              <h3 class="textoPerfume">Her Secret Kiss! 80ML</h3>
+              </div>  -->
+      
+              <!-- <div class="perfume" >
+                <img style="cursor: pointer;" onclick="window.open('https://armi5338416.mercadoshops.com.br/yves-saint-laurent-kouros-edt-100ml-para-homem/p/MLB6094029', '_blank');"
+                src="img/kouros.png"
+                alt=""
+                       />
+                <h3 class="textoPerfume">Yves Saint Laurent Kouros EDT 100 ml</h3>
+                </div> --> 
+      
+                <div class="perfume" >
+                  <img style="cursor: pointer;" onclick="window.open('https://armi5338416.mercadoshops.com.br/montblanc-individuel-edt-75ml-para-masculino/p/MLB3820215?pdp_filters=category:MLB1246%7Cseller_id:176774316', '_blank');"
+                  src="img/montblanc.png"
+                  alt=""
+                           />
+                  <h3 class="textoPerfume">Montblanc Individuel EDT 75 Ml</h3>
+                  </div>   
+              
+                  
+      
+                     <!-- <div class="perfume" >
+                        <img style="cursor: pointer;" onclick="window.open('https://armi5338416.mercadoshops.com.br/MLB-2105573110-perfume-black-extreme-_JM', '_blank');"
+                        src="img/everlast.png"
+                        alt=""
+                                       />
+                        <h3 class="textoPerfume">Everlast Black Extreme+ Brinde</h3>
+                        </div> --> 
+      
+      
+         <div class="perfume" >
+         <img style="cursor: pointer;" onclick="window.open('https://armi5338416.mercadoshops.com.br/MLB-2759839134-amor-amor-cacharel-100ml-mulher-_JM', '_blank');"
+         src="img/amor.png" alt=""/>
+         <h3 class="textoPerfume">Amor Amor Cacharel 100ml</h3>
+         </div>
+         
+           <div class="perfume" >
+         <img style="cursor: pointer;" onclick="window.open('https://armi5338416.mercadoshops.com.br/MLB-2759839900-king-of-seduction-absolut-200-ml-homem-_JM', '_blank');"
+         src="img/king3.png" alt=""/>
+         <h3 class="textoPerfume">King Of Seduction Absolut 200 Ml</h3>
+         </div>
+         
+         <!--  <div class="perfume"> 
+         <img style="cursor: pointer;" onclick="window.open('https://produto.mercadolivre.com.br/MLB-1817760613-perfumes-importados-da-linha-antnio-bandeira-original-_JM', '_blank');"
+         src="img/king.png" alt=""/>
+         <h3 class="textoPerfume">King Of Seduction 200ml</h3>
+         </div> -->
+         
+            <div class="perfume"> 
+         <img style="cursor: pointer;" onclick="window.open('https://produto.mercadolivre.com.br/MLB-2786855531-king-of-seduction-100-ml-homem-_JM', '_blank');"
+         src="img/king.png" alt=""/>
+         <h3 class="textoPerfume">King Of Seduction 100ml</h3>
+         </div>
+         
+         <div class="perfume"> 
+         <img style="cursor: pointer;" onclick="window.open('https://armi5338416.mercadoshops.com.br/MLB-2784650720-azzaro-sport-100-ml-homem-_JM', '_blank');"
+         src="img/azzarosport.png" alt=""/>
+         <h3 class="textoPerfume">Azzaro Sport 100 Ml</h3>
+         </div>
+         
+           <div class="perfume" >
+         <img style="cursor: pointer;" onclick="window.open('https://armi5338416.mercadoshops.com.br/MLB-2770720993-azzaro-pour-homme-200-ml-_JM', '_blank');"
+         src="img/azzaro.png" alt=""/>
+         <h3 class="textoPerfume">Azzaro pour Homme EDT 200 ml</h3>
+         </div>
+         
+            <div class="perfume" >
+         <img style="cursor: pointer;" onclick="window.open('https://produto.mercadolivre.com.br/MLB-2746708531-carolina-herrera-good-girl-femininoedp-80-ml-_JM', '_blank');"
+         src="img/goodgirl.png" alt=""/>
+         <h3 class="textoPerfume">Good Girl 80ml</h3>
+         </div>
+         
+        
+         
+           <div class="perfume" >
+         <img style="cursor: pointer;" onclick="window.open('https://produto.mercadolivre.com.br/MLB-2747348429-lancme-la-vie-est-belle-edp-75-mlmulher-_JM', '_blank');"
+         src="img/lavie.png" alt=""/>
+         <h3 class="textoPerfume">La Vie Est Belle Edp 75 Ml</h3>
+         </div>
+         
+           <div class="perfume" >
+         <img style="cursor: pointer;" onclick="window.open('https://produto.mercadolivre.com.br/MLB-2747342902-carolina-herrera-212-vip-200-mlmasculino-_JM', '_blank');"
+         src="img/vip.png" alt=""/>
+         <h3 class="textoPerfume">Carolina Herrera 212 Vip 200 Ml</h3>
+         </div>
+         
+         <div class="perfume" >
+         <img style="cursor: pointer;" onclick="window.open('https://armi5338416.mercadoshops.com.br/MLB-2652407384-perfume-silver-laght-100ml-_JM', '_blank');"
+         src="img/silverlight.png" alt=""/>
+         <h3 class="textoPerfume">Perfume Silver Light 100ml</h3>
+         </div>
+         
+         <div class="perfume" >
+         <img style="cursor: pointer;" onclick="window.open('https://armi5338416.mercadoshops.com.br/MLB-2733437704-perfume-fantasy-midnight-100-ml-_JM', '_blank');"
+         src="img/midnight.png" alt=""/>
+         <br><br>
+         <h3 class="textoPerfume">Perfume Fantasy Midnight 100 Ml</h3>
+         </div>
+         <div class="perfume" >
+         <img style="cursor: pointer;" onclick="window.open('https://armi5338416.mercadoshops.com.br/MLB-2735459956-kit-the-golden-secret-p-100ml-d-150-ml-_JM', '_blank');"
+         src="img/kit2.png" alt=""/><br><br><br>
+         <h3 class="textoPerfume">Kit The Golden Secret 100ml 150 Ml</h3>
+         </div>
+         
+         <div class="perfume" >
+         <img style="cursor: pointer;" onclick="window.open('https://armi5338416.mercadoshops.com.br/MLB-1817757815-promocoperfume-importado-antnio-bandeira-_JM', '_blank');"
+         src="img/silver2.png" alt=""/>
+         <h3 class="textoPerfume">Antonio Banderas 100Ml</h3>
+         </div>
+         
+         <div class="perfume" >
+         <img style="cursor: pointer;" onclick="window.open('https://armi5338416.mercadoshops.com.br/antonio-banderas-the-secret-edt-200ml-para-homem/p/MLB19175924', '_blank');"
+         src="img/silver2.png" alt=""/>
+         <h3 class="textoPerfume">200Ml Antonio Banderas </h3>
+         </div>
+         
+         <div class="perfume" >
+         <img style="cursor: pointer;" onclick="window.open('https://produto.mercadolivre.com.br/MLB-1961549634-perfume-silver-scent-100-ml-intense-_JM', '_blank');"
+         src="img/scent.png" alt=""/>
+         <h3 class="textoPerfume">Perfume Silver Scent Intense 100 Ml</h3>
+         </div>
+         
+         
+         <div class="perfume" >
+         <img style="cursor: pointer;" onclick="window.open('https://armi5338416.mercadoshops.com.br/MLB-2678967214-perfume-clube-420-gold-100-ml-_JM', '_blank');"
+         src="img/clube420.png" alt=""/>
+         <h3 class="textoPerfume">Perfume Clube 420 Gold 100 Ml</h3>
+         </div>
+        
+         
+         
+         <div class="perfume" >
+         <img style="cursor: pointer;" onclick="window.open('https://produto.mercadolivre.com.br/MLB-2651844544-perfume-arsenal-gilles-cantuel-100ml-_JM', '_blank');"
+         src="img/granada.png" alt=""/>
+         <h3 class="textoPerfume">Perfume Arsenal Gilles Cantuel 100ml</h3>
+         </div>
+         
+         <div class="perfume" >
+         <img style="cursor: pointer;" onclick="window.open('https://armi5338416.mercadoshops.com.br/antonio-banderas-the-icon-edt-100ml-para-homem/p/MLB18590572', '_blank');"
+         src="img/icon.png" alt=""/><br><br>
+         <h3 class="textoPerfume">AntonioBanderas The Icon EDT 100ML</h3>
+         </div>
+         
+      
+         <div class="perfume" >
+         <img style="cursor: pointer;" onclick="window.open('https://produto.mercadolivre.com.br/MLB-2637296249-perfume-amour-toujours-100ml-_JM', '_blank');"
+         src="img/amour.png" alt=""/>
+         <h3 class="textoPerfume">Amour Toujours 100ml</h3>
+         </div>
+         
+         <div class="perfume" >
+             <br><br>
+         <img style="cursor: pointer;" onclick="window.open('https://armi5338416.mercadoshops.com.br/joop-homme-edt-125ml-para-homem/p/MLB6093091', '_blank');"
+         src="img/joop.png" alt=""/>
+         <h3 class="textoPerfume">Joop 125ml</h3>
+         </div>
+         
+         <div class="perfume" >
+         <img style="cursor: pointer;" onclick="window.open('https://armi5338416.mercadoshops.com.br/MLB-2638458027-perfume-billion-woman-100-ml-_JM', '_blank');"
+         src="img/billion2.png" alt=""/>
+         <h3 class="textoPerfume">Billion Woman 100ml</h3>
+         </div>
+         
+         <div class="perfume" >
+         <img style="cursor: pointer;" onclick="window.open('https://produto.mercadolivre.com.br/MLB-2620237684-perfume-queen-of-seduction-80-ml-_JM', '_blank');"
+         src="img/queen.png" alt=""/><br>
+         <h3 class="textoPerfume">Queen Of Seduction 80ML</h3>
+         </div>
+         
+         
+         <div class="perfume" >
+         <br>
+         <img style="cursor: pointer;" onclick="window.open('https://produto.mercadolivre.com.br/MLB-2007041316-perfume-la-petite-fleur-d-amour-_JM', '_blank');"
+         src="img/petite.png" alt=""/>
+         <h3 class="textoPerfume">LaPetite fleur d'amour 100ml</h3>
+         
+         </div>
+      
+         <div class="perfume" >
+         <br><br>
+         <img style="cursor: pointer;" onclick="window.open('https://produto.mercadolivre.com.br/MLB-2611285689-perfume-scuderia-ferrari-red-75-ml-_JM', '_blank');"
+         src="img/ferrarired.png" alt=""/>
+         <h3 class="textoPerfume">Ferrari Red 75ml</h3>
+         </div>
+         
+      
+         <div class="perfume" >
+         <br><br>
+         <img style="cursor: pointer;" onclick="window.open('https://produto.mercadolivre.com.br/MLB-2222536919-polo-black-edt-masc--_JM', '_blank');"
+         src="img/polo.png" alt=""/>
+         <h3 class="textoPerfume">Polo Black EDT 125ml</h3>
+         </div> 
+      
+         
+         <div class="perfume" >
+         <br><br>
+         <img style="cursor: pointer;" onclick="window.open('https://produto.mercadolivre.com.br/MLB-2624436543-perfume-the-golden-secret-100-ml-_JM', '_blank');"
+         src="img/antonioBandera.png" alt=""/>
+         <br><br>
+         <h3 class="textoPerfume">AntonioBanderas The Golden Secret 100ML</h3>
+         </div> 
+         
+         
+         <div class="perfume" >
+         <br>
+         <br>
+         <img style="cursor: pointer;" onclick="window.open('https://produto.mercadolivre.com.br/MLB-2605759406-love-secret-vanilla-_JM', '_blank');"
+         src="img/vanilla.png" alt=""/>
+         <h3 class="textoPerfume">Love Secret Kit Vanilla Hidratante</h3>
+         </div> 
+         
+         <!-- <div class="perfume" >
+         <img style="cursor: pointer;" onclick="window.open('https://produto.mercadolivre.com.br/MLB-2081580077-joop-hoomme-_JM', '_blank');"
+         src="img/joop.png" alt=""/>
+         <h3 class="textoPerfume">Joop! Homme EDT 75ml</h3> 
+         
+         </div> -->
+      
+        <!--  <div class="perfume" >
+         <img style="cursor: pointer;" onclick="window.open('https://produto.mercadolivre.com.br/MLB-2612260566-kit-udv-paris-for-men-100-ml200-ml-_JM', '_blank');"
+         src="img/udv.png" alt=""/>
+         <h3 class="textoPerfume">Kit Udv Paris 100 Ml/200</h3>
+         
+         </div> -->
+         <div class="perfume" >
+         <img style="cursor: pointer;" onclick="window.open('https://produto.mercadolivre.com.br/MLB-2684806919-perfume-ferrari-black-125-ml-_JM', '_blank');"
+         src="img/ferrari.png" alt=""/>
+         <h3 class="textoPerfume">Ferrari Scuderia Black 125ml</h3>
+         </div>
+         
+          <div class="perfume"> 
+         <img style="cursor: pointer;" onclick="window.open('https://armi5338416.mercadoshops.com.br/MLB-2041847214-perfume-coeur-frivoleeau-de-parfum100-ml-_JM', '_blank');"
+         src="img/coeur.png" alt=""/><br><br>
+         <h3 class="textoPerfume">Coeur Frivole 100ml</h3>
+         </div> 
+         
+         <div class="perfume"> 
+         <img style="cursor: pointer;" onclick="window.open('https://armi5338416.mercadoshops.com.br/MLB-2046215361-clube-420-exclusive-men-_JM', '_blank');"
+         src="img/club.png" alt=""/>
+         <h3 class="textoPerfume">Club 420 Exclusive 100ml</h3>
+         </div>
+      
+         <div class="perfume"> 
+         <img style="cursor: pointer;" onclick="window.open('https://armi5338416.mercadoshops.com.br/MLB-2022106139-perfume-juliana-paes-glam-_JM', '_blank');"
+         src="img/juliana.png" alt=""/>
+         <h3 class="textoPerfume">Juliana Paes Glam 100ml</h3>
+         </div>
+               
+         <div class="perfume"> 
+         <img style="cursor: pointer;" onclick="window.open('https://produto.mercadolivre.com.br/MLB-1817757678-so-hojeperfume-importado-da-linha-antnio-bandeira-_JM', '_blank');"
+         src="img/roxo.png" alt=""/>
+         <h3 class="textoPerfume">Her Secrete Temptation 80ml</h3>
+         </div>
     
-  img.trickimg {
-      width: 80%;
-  }
-  
-  ul {
-      list-style: none;
-  }
-  
-  a {
-      text-decoration: none;
-  }
-  
-  main.main {
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  }
-  
-  a.button:hover {
-      font-size: 1.1em;
-  }
-  
-  a.navlink {
-  font-size: 1.80vw;
-  
-  }
-  
-  a.nav__link:hover {
-      font-size: 1.1em;
-      background-color: silver;
-      border-radius: 10px;
+        <!-- <div class="perfume"> 
+         <img style="cursor: pointer;" onclick="window.open('https://produto.mercadolivre.com.br/MLB-2007020346-perfume-wild-adventure-_JM', '_blank');"
+         src="img/wild.png" alt=""/>
+         <br>
+         <h3 class="textoPerfume">Wild Adventure 100ml</h3>
+         
+         </div> --> 
+                  
+          <!--  <div class="perfume"> 
+         <img style="cursor: pointer;" onclick="window.open('https://produto.mercadolivre.com.br/MLB-1952965324-perfume-importado-hugo-man-125-ml-_JM', '_blank');"
+         src="img/hugo.png" alt=""/>
+         <h3 class="textoPerfume">Hugo Boss Man 125ML</h3>          
+         </div> --> 
+
+         <div class="perfume"> 
+         <img style="cursor: pointer;" onclick="window.open('https://armi5338416.mercadoshops.com.br/antonio-banderas-the-golden-secret-edt-200ml-para-homem/p/MLB6140284', '_blank');"
+         src="img/antonioBandera.png" alt=""/>
+         <h3 class="textoPerfume">Antonio Banderas Eau de Toilette 200ml</h3>
+         </div> 
+
+         <div class="perfume" >
+         <br>
+         <img style="cursor: pointer;" onclick="window.open('https://armi5338416.mercadoshops.com.br/MLB-1966784273-la-petite-fleur-romantique-_JM', '_blank');"
+         src="img/petite2.png" alt=""/>
+         <h3 class="textoPerfume">La Petit Fleur Romantique 100ml</h3>    
+         </div>
+      
+         <div class="perfume"> 
+         <img style="cursor: pointer;" onclick="window.open('https://produto.mercadolivre.com.br/MLB-1966773274-hugo-just-different-_JM', '_blank');"
+         src="img/hugojust.png" alt=""/>
+         <h3 class="textoPerfume">HugoBoss Just 125ml</h3>    
+         </div>
+      
+         <div class="perfume"> 
+         <img style="cursor: pointer;" onclick="window.open('https://produto.mercadolivre.com.br/MLB-1819117685-perfume-importado-da-linha-antnio-bandeira100-original-_JM', '_blank');"
+         src="img/power.png"
+     alt=""/>
+         <h3 class="textoPerfume">Power of Seduction 100ml</h3>    
+         </div>
      
-  }
-  
-  img {
-      max-width: 100%;
-      height: auto;
-      margin-left: 10p;
-  }
-  
-  button,
-  input {
-      border: none;
-      outline: none;
-  }
-  
-  button {
-      cursor: pointer;
-      font-family: var(--body-font);
-      font-size: var(--normal-font-size);
-  }
-  
-  /*================= REUSABLE CSS CLASSES ====================*/
-  .section {
-      /* background-color: blue; */
-      padding: 24rem 0 3rem;
-  }
-  
-  .section__title {
-      font-size: var(--h2-font-size);
-      margin-bottom: var(--mb-2);
-      text-align: center;
-  }
-  
-  /* ================ LAYOUT ===================*/
-  .container {
-      max-width: 968px;
-      margin-left: var(--mb-1-5);
-      margin-right: var(--mb-1-5);
-  }
-  
-  .grid {
-      display: grid;
-  }
-  
-  .main {
-      overflow: hidden; /*For animation*/
-  margin-top: 10vh;}
-  /*================= HEADER ===================*/
-  .header{
-      width: 100%;
-      background: #8b87ff;
-      position: fixed;
-      margin-bottom: 3vh;
-      top: 0;
-      box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
-      left: 0;
-      z-index: var(--z-fixed);
-  }
-  /*================= NAV ======================*/
-  .nav {
-      height: var(--header-height);
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      max-width: 968px;
-      margin-left: var(--mb-1-5);
-      margin-right: var(--mb-1-5);
-  }
-  
-  .nav__logo {
-      display: flex;
-      align-items: center;
-      column-gap: .5rem;
-      letter-spacing: 2px;
-      font-weight: var(--font-medium);
-  }
-  
-  .nav__logo-img {
-      width: 1.25rem;
-  }
-  
-  .nav__link,
-  .nav__logo,
-  .nav__toggle,
-  .nav__close {
-      color: hsl(241deg 100% 4%);
-      letter-spacing:;
-  }
-  
-  .nav__toggle {
-      font-size: 1.55rem;
-      cursor: pointer;
-  }
-  
-  @media screen and (max-width: 767px) {
-      .nav__menu{
-          position: fixed;
-          width: 100%;
-          background: var(--container-color);
-          top: -150%;
-          left: 0;
-          padding: 3.5rem 0;
-          transition: .4s;
-          z-index: var(--z-fixed);
-          border-radius: 0 0 1.5rem 1.5rem;
-      }
-  }
-  
-  .nav__img {
-      width: 100px;
-      position: absolute;
-      top: 0;
-      left: 0;
-  }
-  
-  .nav__close {
-      font-size: 1.8rem;
-      position: absolute;
-      top: .5rem;
-      right: .7rem;
-      cursor: pointer;
-  }
-  
-  .nav__list {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      row-gap: 1.5rem;
-  }
-  
-  .nav__link {
-      text-transform: uppercase;
-      font-weight: var(--font-black);
-      transition: .4s;
-  }
-  
-  .nav__link:hover {
-      color: var(--text-color);
-  }
-  /* Show menu */
-  .show-menu {
-      top: 0;
-  }
-  
-  /* Change background header */
-  .scroll-header {
-      background: var(--container-color);
-  }
-  
-  /* Active Link */
-  .active-link {
-      position: relative;
-  }
-  
-  .active-link::before {
-      content: '';
-      position: absolute;
-      bottom: -.75rem;
-      left: 45%;
-      width: 5px;
-      height: 5px;
-      background-color: var(--title-color);
-      border-radius: 50%;
-  }
-  
-  /*================ HOME ================*/
-  .home__content {
-      row-gap: 1rem;
+         <!-- <div class="perfume"> 
+         <img style="cursor: pointer;" onclick="window.open('https://produto.mercadolivre.com.br/MLB-1910915124-her-secret-desire-antnio-bandeira-_JM', '_blank');"
+         src="img/roxokit.png" alt=""/>
+         <h3 class="textoPerfume"> Her Secret Desire KIT 80ml</h3>
+         </div> -->
+
+         </div>
+      </section>
+    </div>
+<footer class="footer">
+<div class="footer__container container grid">
+<div class="footer__content">
+<a href="#" class="nav__logo"> 
+MizaShow 
+</a> 
+
+<p class="footer__description">
+Miza Show Store ;) novidades chegando! <br />
+</p>
+
+<div class="footer__social"> 
+
+<a
+href="https://www.instagram.com/mizashow.of"
+target="_blank"
+class="footer__social-link"
+>
+<i class="bx bxl-instagram-alt"></i>
+</a>
+<a
+href="https://wa.me/5511986824480"
+target="_blank"
+class="footer__social-link"
+>
+<i class="bx bxl-whatsapp"></i>
+</a>
+
+<a
+href="https://twitter.com/mizaels23311601"
+target="_blank"
+class="footer__social-link"
+>
+<i class="bx bxl-twitter"></i>
+</a>
+
+<a
+href="https://www.tiktok.com/@mizashow.of"
+target="_blank"
+class="footer__social-link"
+>
+<i class="bx bxl-tiktok"></i>
+</a>
+
+<a
+href="https://www.youtube.com/channel/UC2Vn19Tf9PL9VuNq-yQkNJg/videos"
+target="_blank"
+class="footer__social-link"
+>
+<i class="bx bxl-youtube"></i>
+</a>
+
+</div>
+</div> 
+
+<div class="footer__content">
+<h3 class="footer__title">mizaelaraujoshow@gmail.com</h3>
+<h6 class="footer__title">Nome Civil: Mizael Araujo dos Santos</h6>
+<h6 class="footer__title">CNPJ 47.442.022/0001-75</h6>
+<h6 class="footer__title">NOME FANTASIA MIZASHOW</h6>
+<h6 class="footer__title">NOME EMPRESARIAL Mizael Araujo dos Santos</h6>
+
+</div> 
+
+</div>
+
+<h3 class="footer__copy">&#169; Github: Synaxis Full Stack FreeLance Developer Caio Torquato</h3>
+
+</footer>
+
+<!--=============== SCROLL UP ===============-->
+<a href="#" class="scrollup" id="scroll-up">
+<i class="bx bx-up-arrow-alt scrollup__icon"></i>
+</a>
+
+<!--=============== SCROLL REVEAL ===============-->
+<script src="assets/js/scrollreveal.min.js"></script>
+
+<!--=============== SWIPER JS ===============-->
+<script src="assets/js/swiper-bundle.min.js"></script>
+
+<!--=============== MAIN JS ===============-->
+
+<script src="assets/js/main.js"></script>
+</main>
+
+    <script>
+        // Códigos anteriores ...
+
+        document.getElementById("perfumeImage1").addEventListener("click", function() {
+            window.open("https://produto.mercadolivre.com.br/MLB-2856268710-idle-l-parfum-lancme-75-ml-_JM", "_blank", "noopener");
+        });
+
+        document.getElementById("perfumeImage2").addEventListener("click", function() {
+            window.open("https://www.helloworld2.com", "_blank", "noopener");
+        });
+
+        document.getElementById("perfumeImage3").addEventListener("click", function() {
+            window.open("https://www.helloworld3.com", "_blank", "noopener");
+        });
+    </script>
+    <script> 
     
- }
-  
-  .home__group {
-      display: flex;
-      position: relative;
-      
-  justify-content: center;}
-  
-  
+    let index = 0;
+const slides = document.querySelectorAll('.carousel img');
 
-  .home__img__small {
-    height: 150px;
-    margin-bottom: 3vh;
-    justify-self: center;
+function slideShow() {
+    slides[index].classList.remove('active');
+    index = (index + 1) % slides.length; // Cycle through images
+    slides[index].classList.add('active');
 }
 
-  
-  .home__indicator {
-      width: 8px;
-      height: 8px;
-      background-color: var(--title-color);
-      border-radius: 50%;
-      position: absolute;
-      top: 7rem;
-      right: 2rem;
-  }
-  
-  .home__indicator::after {
-      content: '';
-      position: absolute;
-      width: 1px;
-      height: 48px;
-      background-color: var(--title-color);
-      top: -3rem;
-      right: 45%;
-  }
-  
-  .home__details-img {
-      position: absolute;
-      right: .5rem;
-  }
-  
-  .home__details-title,
-  .home__details-subtitle {
-      display: block;
-      font-size: var(--small-font-size);
-      text-align: right;
-  }
-  
-  .home__subtitle {
-      font-size: var(--h3-font-size);
-      text-transform: uppercase;
-      margin-bottom: var(--mb-1);
-  }
-  
-  .home__title {
-      font-size: var(--biggest-font-size);
-      font-weight: var(--font-black);
-      line-height: 109%;
-      margin-bottom: var(--mb-1);
-  }
-  
-  .home__description {
-      margin-bottom: var(--mb-1);
-  }
-  
-  .home__buttons {
-      display: flex;
-      justify-content: space-between;
-  }
-  
-  
-  /* Swiper Class */
-  .swiper-pagination {
-      position: initial;
-      margin-top: var(--mb-1);
-  }
-  
-  .swiper-pagination-bullet {
-      width: 5px;
-      height: 5px;
-      background-color: var(--title-color);
-      opacity: 1;
-  }
-  
-  .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
-      margin: 0 .5rem;
-  } 
-  
-  .swiper-pagination-bullet-active {
-      width: 1.5rem;
-      height: 5px;
-      border-radius: .5rem;
-  }
-  
-  
-  
-  /*================= BUTTONS ==================*/
-  .button {
-      display: inline-block;
-      background-color: var(--first-color);
-      color: var(--title-color);
-      padding: 1rem 1.75rem;
-      border-radius: .5rem;
-      font-weight: var(--font-medium);
-      transition: .3s;
-  }
-  
-  .button:hover {
-      background-color: var(--first-color-alt);
-  }
-  
-  .button__icon {
-      font-size: 1.25rem;
-  }
-  
-  .button--ghost {
-      border: 2px solid;
-      background-color: transparent;
-      border-radius: 3rem;
-      padding: .75rem 1.5rem;
-  }
-  
-  .button--ghost:hover {
-      background: none;
-  }
-  
-  .button--link {
-      color: var(--title-color);
-  }
-  
-  .button--flex {
-      display: inline-flex;
-      align-items: center;
-      column-gap: .5rem;
-  }
-  
-  /*================= CATEGORY =================*/
-  .category__container {
-      grid-template-columns: repeat(2, 1fr);
-      gap: 1rem 2rem;
-  }
-  
-  .category__data {
-      text-align: center;
-  }
-  
-  .category__img {
-      width: 120px;
-      margin-bottom: var(--mb-0-75);
-      transition: .3s;
-  }
-  
-  .category__title {
-      margin-bottom: var(--mb-0-25);
-  }
-  
-  .category__data:hover .category__img {
-      transform: translateY(-.5rem);
-  }
-  
-  
-  /*================= ABOUT =====================*/
-  .about__container {
-      row-gap: 2rem;
-  }
-  
-  .about__data {
-      text-align: center;
-  }
-  
-  .about__description {
-      margin-bottom: var(--mb-2);
-  }
-  
-  .about__img {
-      width: 200px;
-      justify-self: center;
-  }
-  
-  
-  /*================= TRICK OR TREAT =============*/
-  
-  .perfume__container {
-      grid-template-columns: repeat(3, 1fr);
-      gap: 1.2rem;
-      padding-top: 0;
-      background-color: blue;
-      margin-top: -50vh;
-}
+setInterval(slideShow, 7000); // Change every 3 seconds
 
-
-
-.perfume__container {
-    grid-template-columns: repeat(3, 1fr);
-    gap: 1.2rem;
-    padding-top: 0;
-    background-color: #e9c7c7;
-    margin-top: -50vh;
-}
-  
-  .trick__content {
-      position: relative;
-      background: transparent;
-      border-radius: 0.5rem;
-      color:  black;padding: 1.0rem 0 0.5rem 0;
-      text-align: center;
-      overflow: hidden;
-      padding-bottom: 9%;
-      padding-left: 0%;
-      padding-right: 0%;
-  }
-  
-  .trick__img {
-      width: 45%;
-      transition: .2s;
-  }
-  
-  .trick__subtitle,
-  .trick__price {
-      display: block;
-  }
-  
-  .trick__subtitle {
-      font-size: 0.7em;
-      margin-bottom: var(--mb-0-5);
-  }
-  
-  .trick__title,
-  .trick__price {
-      color: black;
-      font-weight: 500;
-      font-size: 0.65em;
-  }
-  
-  .trick__button {
-      display: inline-flex;
-      padding: .5rem;
-      border-radius: .25rem .25rem .75rem .25rem;
-      position: absolute;
-      right: -3rem;
-      bottom: 0;
-  }
-  
-  .trick__icon {
-      font-size: 1.10rem;
-      color: var(--title-color);
-  }
-  
-  .trick__content:hover .trick__img {
-      transform: translateY(-.5rem)
-  }
-  
-  .trick__content:hover .trick__button {
-      right: 0;
-  }
-  
-  
-  /*================= DISCOUNT ===================*/
-  .discount__container {
-      background: var(--container-color);
-      border-radius: 1rem;
-      padding: 2.5rem 0 1.5rem;
-      row-gap: .75rem;
-  }
-  
-  .discount__data {
-      text-align: center;
-  }
-  
-  .discount__title {
-      font-size: var(--h2-font-size);
-      margin-bottom: var(--mb-2);
-  }
-  
-  .discount__img {
-      width: 200px;
-      justify-self: center;
-  }
-  
-  
-  /*=============== NEW ARRIVALS ==================*/
-  .new__container {
-      padding-top: 1rem;
-  }
-  
-  .new__img {
-      width: 120px;
-      margin-bottom: var(--mb-0-5);
-      transition: .3s;
-  }
-  
-  .new__content {
-      position: relative;
-      background: var(--container-color);
-      width: 242px;
-      padding: 2rem 0 1.5rem 0;
-      border-radius: .75rem;
-      text-align: center;
-      overflow: hidden;
-  }
-  
-  .new__tag {
-      position: absolute;
-      top: 8%;
-      left: 8%;
-      background-color: var(--first-color);
-      color: var(--title-color);
-      font-size: var(--small-font-size);
-      padding: .25rem .5rem;
-      border-radius: .25rem;
-  }
-  
-  .new__title {
-      font-size: var(--normal-font-size);
-      font-weight: var(--font-medium);
-  }
-  
-  .new__subtitle {
-      display: block;
-      font-size: var(--small-font-size);
-      margin-bottom: var(--mb-0-5);
-  }
-  
-  .new__prices {
-      display: inline-flex;
-      align-items: center;
-      column-gap: .5rem;
-  }
-  
-  .new__price {
-      font-weight: var(--font-medium);
-      color: var(--title-color);
-  }
-  
-  .new__discount {
-      color: var(--first-color);
-      font-size: var(--smaller-font-size);
-      text-decoration: line-through;
-      font-weight: var(--font-medium);
-  }
-  
-  .new__button {
-      display: inline-flex;
-      padding: .5rem;
-      border-radius: .25rem .25rem .75rem .25rem;
-      position: absolute;
-      bottom: 0;
-      right: -3rem;
-  }
-  
-  .new__icon {
-      font-size: 1.25rem;
-  }
-  
-  .new__content:hover .new__img {
-      transform: translateY(-.5rem);
-  }
-  
-  .new__content:hover .new__button {
-      right: 0;
-  }
-  
-  /*=============== NEWSLETTER ====================*/
-  .newsletter__description {
-      text-align: center;
-      margin-bottom: var(--mb-1-5);
-  }
-  
-  .newsletter__form {
-      background: var(--container-color);
-      padding: 1rem;
-      display: flex;
-      justify-content: space-between;
-      border-radius: .75rem;
-  }
-  
-  .newsletter__input {
-      width: 70%;
-      padding: 0 .5rem;
-      background: none;
-      color: var(--title-color);
-  }
-  
-  .newsletter__input::placeholder {
-      color: var(--text-color);
-  
-  }
-  
-  /*=============== FOOTER ========================*/
-  .footer {
-      position: relative;
-      overflow: hidden;
-  }
-  
-  .footer__img-one,
-  .footer__img-two {
-      position: absolute;
-      transition: .3s;
-  }
-  
-  .footer__img-one {
-      width: 100px;
-      top: 6rem;
-      right: -2rem;
-  }
-  
-  .footer__img-two {
-      width: 150px;
-      bottom: 4rem;
-      right: 4rem;
-  }
-  
-  .footer__img-one:hover,
-  .footer__img-two:hover {
-      transform: translateY(-.5rem);
-  }
-  
-  .footer__container {
-      row-gap: 2rem;
-  }
-  
-  .footer__logo {
-      display: flex;
-      align-items: center;
-      column-gap: .5rem;
-      margin-bottom: var(--mb-1);
-      font-weight: var(--font-medium);
-      color: var(--title-color);
-  }
-  
-  .footer__logo-img {
-      width: 20px;
-  }
-  
-  .footer__description {
-      margin-bottom: var(--mb-2-5);
-  }
-  
-  .footer__social {
-      display: flex;
-      column-gap: .75rem;
-  }
-  
-  .footer__social-link {
-      display: inline-flex;
-      background: var(--container-color);
-      padding: .25rem;
-      border-radius: .25rem;
-      color: var(--title-color);
-      font-size: 2.1rem;
-  }
-  
-  .footer__social-link:hover {
-      background: var(--body-color);
-  }
-  
-  .footer__title {
-      font-size: var(--h3-font-size);
-      margin-bottom: var(--mb-1);
-  }
-  
-  .footer__links {
-      display: grid;
-      row-gap: .35rem;
-  }
-  
-  .footer__link {
-      font-size: var(--small-font-size);
-      color: var(--text-color);
-      transition: .3s;
-  }
-  
-  .footer__link:hover {
-      color: var(--title-color);
-  }
-  
-  .footer__copy {
-      display: block;
-      text-align: center;
-      font-size: var(--small-font-size);
-      margin-top: 4.5rem;
-  }
-  
-  
-  /*================ SCROLL UP ==================*/
-  .scrollup {
-      position: fixed;
-      background: var(--container-color);
-      right: 1rem;
-      bottom: -20%;
-      display: inline-flex;
-      padding: .3rem;
-      border-radius: .25rem;
-      z-index: var(--z-tooltip);
-      opacity: .8;
-      transition: .4s;
-  }
-  
-  .scrollup__icon {
-      font-size: 1.25rem;
-      color: var(--title-color);
-  }
-  
-  .scrollup:hover {
-      background: var(--container-color);
-      opacity: 1;
-  }
-  
-  /* Show Scroll Up*/
-  .show-scroll {
-      bottom: 3rem;
-  }
-  
-  /*================== SCROLL BAR =====================*/
-  ::-webkit-scrollbar {
-      width: 0.6rem;
-      background: #ffffff;
-  }
-  
-  ::-webkit-scrollbar-thumb {
-      background: #272525;
-      border-radius: .5rem;
-  }
-  /*=================== BREAKPOINTS ===================*/
-  
-  /* For smaLL devices */
-  @media screen and (max-width: 320px) {
-      .container {
-          margin-left: var(--mb-1);
-          margin-right: var(--mb-1);
-      }
-
-      
-.js-Carousel {
-    background: white;
-    height: 455px;
-    margin-bottom: 2vh;
-  margin-top: 30vh;
-    overflow: hidden;
-    position: relative;
-    width: 800px;
-  }
-  .js-Carousel > ul {
-    height: 200px;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    width: 9999px;
-  }
-  .js-Carousel > ul li {
-    display: inline-block;
-    float: left;
-    width: 500px;
-    transition: margin-left 0.3s ease;
-  }
-  .js-Carousel > ul li img {
-   text-align:center;
-   width: 250px;
-   height: 250px;
-  }
-  .js-Carousel .js-Carousel-arrowPrev,
-  .js-Carousel .js-Carousel-arrowNext {
-    background: transparent;
-    border: 0;
-    color: #e0e0e0;
-    cursor: pointer;
-    font: 400 10em sans-serif;
-    height: 200px;
-    outline: 0;
-    position: absolute;
-    top: 0;
-    text-shadow: 0 0 10px #444444;
-    width: 90px;
-    transition: all 0.2s ease;
-  }
-  .js-Carousel .js-Carousel-arrowPrev:hover,
-  .js-Carousel .js-Carousel-arrowNext:hover {
-    color: #aaaaaa;
-  }
-  .js-Carousel .js-Carousel-arrowPrev {
-    left: 0;
-  }
-  .js-Carousel .js-Carousel-arrowNext {
-    right: 0;
-  }
-  .js-Carousel .js-Carousel-dots {
-    display: inline-block;
-    height: 1.25em;
-    margin: 0;
-    position: absolute;
-    bottom: 1em;
-    right: 1em;
-    width: auto;
-  }
-  .js-Carousel .js-Carousel-dots li {
-    background: #aaaaaa;
-    border-radius: .75em;
-    cursor: pointer;
-    display: inline-block;
-    height: .75em;
-    margin: 0 .75em;
-    width: .75em;
-    transition: all 0.2s ease;
-  }
-  .js-Carousel .js-Carousel-dots li.is-active {
-    background: #ffffff;
-    box-shadow: 0 0 3px 3px #ddd;
-  }
-  .js-Carousel .js-Carousel-dots li:hover {
-    background: #f5f5f5;
-  }
-  .js-Carousel .js-Carousel-btnStop,
-  .js-Carousel .js-Carousel-btnPlay {
-    background: #aaaaaa;
-    border: 0;
-    cursor: pointer;
-    height: 2.25em;
-    position: absolute;
-    bottom: 1em;
-    left: 2em;
-    text-align: center;
-    width: 5em;
-    transition: all 0.2s ease;
-  }
-  .js-Carousel .js-Carousel-btnStop:hover,
-  .js-Carousel .js-Carousel-btnPlay:hover {
-    background: #f5f5f5;
-  }
-  .js-Carousel .js-Carousel-btnStop {
-    left: 100px;
-  }
-  
-  
-      .home__img {
-          height: 120px;
-      }
-      .home__data {
-          /* color: blue; */
-      display: flex;/* width: 10vw; */font-size: 1em;height: 1vh;flex-direction: column-reverse;align-items: center;}
-      a.nav__logo {
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        font-weight: 600;
-        font-size: 1.8em;
-        margin-left: -5vw;
-    }
-  
-      .home__buttons {
-          flex-direction: column;
-          width: max-content;
-          row-gap: 1rem;
-      }
-  
-      .category__container,
-      .perfume__container {
-        grid-template-columns: repeat(3, 1fr);
-        justify-content: center;
-        font-size: 0.75em;
-      }
-  }
-  
-  /* For medium devices */
-  @media screen and (min-width: 576px) {
-      .about__container {
-          grid-template-columns: .8fr;
-          justify-content: center;
-      }
-  
-      .newsletter__container {
-          display: grid;
-          grid-template-columns: .7fr;
-          justify-content: center;
-      }
-  
-      .newsletter__description {
-          padding: 0 3rem;
-      }
-  }
-  
-  @media screen and (min-width: 767px) {
-      body {
-          margin: 0;
-      }
-  
-      .section {
-          padding: 4.5rem 0 2rem;
-      }
-  
-      .nav {
-          height: calc(var(--header-height) + 1.5rem);
-      }
-  
-      .nav__img,
-      .nav__close,
-      .nav__toggle {
-          display: none;
-      }
-  
-      .nav__list {
-          flex-direction: row;
-          column-gap: 3rem;
-      }
-  
-      .nav__link {
-          text-transform: initial;
-          font-weight: initial;
-      }
-  
-      .home__content {
-          padding: 3rem 0 1rem;
-          grid-template-columns: repeat(2, 1fr);
-          gap: 0.5rem;
-      margin-bottom: 10vh;}
-  
-      .home__img {
-        height: 350px;
-        margin-left: 30vw;
-      }
-  
-      .swiper-pagination {
-          margin-top: var(--mb-2);
-      }
-  
-      .category__container {
-          grid-template-columns: repeat(3, 200px);
-          justify-content: center;
-      }
-  
-      .about__container {
-          grid-template-columns: repeat(2, 1fr);
-          align-items: center;
-      }
-  
-      .about__title,
-      .about__data {
-          text-align: initial;
-      }
-  
-      .about__img {
-          width: 250px;
-      }
-  
-      .perfume__container {
-          margin-bottom: 30vh;
-          grid-template-columns: repeat(5, 180px);
-          margin-top: 1vh;
-          justify-content: center;
-          gap: 0.5rem;
-      }
-  
-      .discount__container {
-          grid-template-columns: repeat(2, max-content);
-          justify-content: center;
-          align-items: center;
-          column-gap: 3rem;
-          padding: 3rem 0;
-          border-radius: 3rem;
-      }
-      
-      .discount__img {
-          width: 350px;
-          order: -1; /*Invert image side*/
-      }
-  
-      .discount__data {
-          padding-right: 6rem;
-      }
-  
-      .newsletter__container {
-          grid-template-columns: 0.5fr;
-      }
-  
-      .footer__container {
-          grid-template-columns: repeat(4, 1fr);
-          justify-items: center;
-          column-gap: 1rem;
-      }
-  
-      .footer__img-two {
-          right: initial;
-          bottom: 0;
-          left: 15%;
-      }
-  
-  }
-  
-  /* For Large devies */
-  @media screen and (min-width: 992px) {
-      .container {
-          margin-left: auto;
-          margin-right: auto;
-      /* background-image: url("/img/bg.png"); 
-    background-repeat: no-repeat;*/
-} 
-  
-
-    .perfume__container {
-    margin-left: auto;
-    margin-right: auto;
-    }
-
-      .section__title {
-          font-size: var(--h1-font-size);
-          margin-bottom: 3rem;
-      }
-  
-      .home__content {
-          /* padding-top: 9rem; */
-          /* gap: 3rem; */
-      margin-top: 4vh;}
-  
-      .home__group {
-          padding-top: 0;
-      }
-  
-      .home__img {
-          height: 400px;
-          transform: translateY(-3rem);
-      }
-  
-      .home__indicator {
-          top: initial;
-          right: initial;
-          bottom: 15%;
-          left: 45%;
-      }
-  
-      .home__indicator::after {
-          top: 0;
-          height: 75px;
-      }
-  
-      .home__details-img {
-          /* bottom: 0; */
-          right: 58%;
-      }
-  
-      .home__title {
-          margin-bottom: var(--mb-1-5);
-          font-size: 4rem; /**/
-      }
-  
-      .home__description {
-          margin-bottom: var(--mb-2-5);
-          padding-right: 2rem;
-      }
-  
-      .category__container {
-          column-gap: 8rem;
-      }
-  
-      .category__img {
-          width: 200px;
-      }
-  
-      .about__img {
-          width: 350px;
-      }
-  
-      .about__description {
-          padding-right: 2rem;
-      }
-  
-      .perfume__container {
-          gap: 3.5rem;
-      margin-top: 1vh;}
-  
-      .trick__content {
-          border-radius: 1.5rem;
-      }
-  
-      .trick__img {
-          width: 12vw;
-      }   
-  
-      .trick__title {
-          font-size: var(--h3-font-size);
-      }
-  
-      .discount__container {
-          column-gap: 7rem;
-      }
-  
-      .new__content {
-          width: 310px;
-          border-radius: 1rem;
-          padding: 2rem 0;
-      }
-  
-      .new__img {
-          width: 150px;
-      }
-  
-      .new__img,
-      .new__subtitle {
-          margin-bottom: var(--mb-1);
-      }
-  
-      .new__title {
-          font-size: var(--h3-font-size);
-      }
-  
-      .footer__copy {
-          margin-top: 6rem;
-      }
-  }
-  
-  @media screen and (min-width: 1200px) {
-      .home__img {
-          height: 420px;
-      }
-  
-      .swiper-pagination {
-          margin-top: var(--mb-2-5);
-      }
-  
-      .footer__img-one {
-          width: 120px;
-      }
-  
-      .footer__img-two {
-          width: 180px;
-          top: 30%;
-          left: -3%;
-      }
-  }
-
-  
-
-  @media screen and (min-width: 440px) {
-    .home__img {
-        height: 200px;
-    width: 450px;}
-
-.home__group {font-size: 1em;}
-
-    .swiper-pagination {
-        margin-top: var(--mb-2-5);
-    }
-    .home__title {
-        font-size: 1em;
-    }
-    .footer__img-one {
-        width: 120px;
-    }
-    .home__subtitle {
-        font-size: var(--h3-font-size);
-        text-transform: uppercase;
-        margin-bottom: var(--mb-1);
-    }
-    .home__details-title, .home__details-subtitle {
-        
-    margin-top: -4vw;
-}
-    div.home__content.grid {
-        
-    display: flex;}
-
-    .home__buttons {
-
-    }
-
-    .footer__img-two {
-        width: 180px;
-        top: 30%;
-        left: -3%;
-    }
-    
-}
-
-@media screen and (min-width: 540px) {
-    .home__img {
-        height: 300px;
-    width: 450px;}
-
-.home__group {font-size: 1em;}
-
-    .swiper-pagination {
-        margin-top: var(--mb-2-5);
-    }
-    .home__title {
-        font-size: 1em;
-    }
-    .footer__img-one {
-        width: 120px;
-    }
-    .home__subtitle {
-        font-size: var(--h3-font-size);
-        text-transform: uppercase;
-        margin-bottom: var(--mb-1);
-    }
-    .home__details-title, .home__details-subtitle {
-        
-    margin-top: -4vw;
-}
-    div.home__content.grid {
-        
-    display: flex;}
-
-    .home__buttons {
-
-    }
-
-    .footer__img-two {
-        width: 180px;
-        top: 30%;
-        left: -3%;
-    }
-    
-}@media screen and (min-width: 640px) {
-    .home__img {
-        height: 400px;
-    width: 450px;}
-
-.home__group {font-size: 1em;}
-
-    .swiper-pagination {
-        margin-top: var(--mb-2-5);
-    }
-    .home__title {
-        font-size: 1em;
-    }
-    .footer__img-one {
-        width: 120px;
-    }
-    .home__subtitle {
-        font-size: var(--h3-font-size);
-        text-transform: uppercase;
-        margin-bottom: var(--mb-1);
-    }
-    .home__details-title, .home__details-subtitle {
-        
-    margin-top: -4vw;
-}
-    div.home__content.grid {
-        
-    display: flex;}
-
-    .home__buttons {
-
-    }
-
-    .footer__img-two {
-        width: 180px;
-        top: 30%;
-        left: -3%;
-    }
-    
-}@media screen and (min-width: 740px) {
-    .home__img {
-        height: 500px;
-    width: 450px;}
-
-.home__group {font-size: 1em;}
-
-    .swiper-pagination {
-        margin-top: var(--mb-2-5);
-    }
-    .home__title {
-        font-size: 1em;
-    }
-    .footer__img-one {
-        width: 120px;
-    }
-    .home__subtitle {
-        font-size: var(--h3-font-size);
-        text-transform: uppercase;
-        margin-bottom: var(--mb-1);
-    }
-    .home__details-title, .home__details-subtitle {
-        
-    margin-top: -4vw;
-}
-    div.home__content.grid {
-        
-    display: flex;}
-
-    .home__buttons {
-
-    }
-
-    .footer__img-two {
-        width: 180px;
-        top: 30%;
-        left: -3%;
-    }
-    
-}
-@media screen and (min-width: 140px) {
-    .home__img {
-        height: 25vw;
-        width: 30vh;
-        transform: translate(-20%, -5%);
-
-    position: fixed;}
-
-.home__group {font-size: 1em;}
-
-    .swiper-pagination {
-        margin-top: var(--mb-2-5);
-    }
-    .home__title {
-        font-size: 1em;
-    }
-    .footer__img-one {
-        width: 120px;
-    }
-    .home__subtitle {
-        font-size: var(--h3-font-size);
-        text-transform: uppercase;
-        margin-bottom: var(--mb-1);
-    }
-
-    .home__details-title, .home__details-subtitle {        
-    margin-top: -4vw;
-    
-
-    }
-    div.home__content.grid {
-        
-    display: flex;
-    }
-
-    .home__buttons {
-
-    }
-
-    .footer__img-two {
-        width: 180px;
-        top: 30%;
-        left: -3%;
-    }
-}
+    </script>
+</body>
+</html>
